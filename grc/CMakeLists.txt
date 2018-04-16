@@ -16,7 +16,7 @@
 # along with GNU Radio; see the file COPYING.  If not, write to
 # the Free Software Foundation, Inc., 51 Franklin Street,
 # Boston, MA 02110-1301, USA.
-
 install(FILES
-    sarsat_biphase_l_decode_bb.xml DESTINATION share/gnuradio/grc/blocks
+    sarsat_biphase_l_decode_bb.xml
+    sarsat_pds_frame_sync.xml DESTINATION share/gnuradio/grc/blocks
 )

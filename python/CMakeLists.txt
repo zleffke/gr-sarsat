@@ -31,7 +31,8 @@ endif()
 GR_PYTHON_INSTALL(
     FILES
     __init__.py
-    biphase_l_decode_bb.py DESTINATION ${GR_PYTHON_DIR}/sarsat
+    biphase_l_decode_bb.py
+    pds_frame_sync.py DESTINATION ${GR_PYTHON_DIR}/sarsat
 )
 
 ########################################################################

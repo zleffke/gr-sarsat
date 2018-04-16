@@ -32,4 +32,6 @@ except ImportError:
 
 # import any pure python here
 from biphase_l_decode_bb import biphase_l_decode_bb
+from pds_frame_sync import pds_frame_sync
+
 #
