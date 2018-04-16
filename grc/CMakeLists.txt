@@ -18,5 +18,6 @@
 # Boston, MA 02110-1301, USA.
 install(FILES
     sarsat_biphase_l_decode_bb.xml
-    sarsat_pds_frame_sync.xml DESTINATION share/gnuradio/grc/blocks
+    sarsat_pds_frame_sync.xml
+    sarsat_sarp_msg_extract.xml DESTINATION share/gnuradio/grc/blocks
 )

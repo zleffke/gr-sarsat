@@ -32,7 +32,8 @@ GR_PYTHON_INSTALL(
     FILES
     __init__.py
     biphase_l_decode_bb.py
-    pds_frame_sync.py DESTINATION ${GR_PYTHON_DIR}/sarsat
+    pds_frame_sync.py
+    sarp_msg_extract.py DESTINATION ${GR_PYTHON_DIR}/sarsat
 )
 
 ########################################################################
