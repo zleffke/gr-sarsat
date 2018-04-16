@@ -31,4 +31,5 @@ except ImportError:
 	pass
 
 # import any pure python here
+from biphase_l_decode_bb import biphase_l_decode_bb
 #

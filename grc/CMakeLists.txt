@@ -18,5 +18,5 @@
 # Boston, MA 02110-1301, USA.
 
 install(FILES
-    DESTINATION share/gnuradio/grc/blocks
+    sarsat_biphase_l_decode_bb.xml DESTINATION share/gnuradio/grc/blocks
 )
